@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
-const Navbar = (props) => {
+const Navbar = () => {
   return (
     <nav className="navbar fixed-top navbar-expand-lg bg-body-tertiary navbar bg-dark" data-bs-theme="dark">
       <div className="container-fluid">
@@ -18,10 +18,6 @@ const Navbar = (props) => {
             <li className="nav-item"><NavLink className="nav-link" to="/sports">Sports</NavLink></li>
             <li className="nav-item"><NavLink className="nav-link" to="/technology">Technology</NavLink></li>
           </ul>
-          {/* <form className="d-flex" role="search">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success" type="submit">Search</button>
-          </form> */}
         </div>
       </div>
     </nav>
